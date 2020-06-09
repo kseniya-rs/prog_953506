@@ -1,0 +1,17 @@
+4
+Semko,Dmitriy,Ruslan,54,3,1,nm8493903,938bd2738n,
+BNTU
+Director,3000.00,105,8,5,
+
+Rudkovskaya,Kseniya,Sergey,101,11,6,hj3849202,3940393nskfi3,
+BSUIR
+Jun,500.00,119,5,1,
+
+Ganusevich,Maxim,Ivan,100,5,12,kj7895634,938484nskc3kvk4,
+BSUIR
+Jun,500.00,119,5,1,
+
+Raiko,Olga,Viktor,101,10,8,kt8392902,94583kjfj4bkf,
+BSUIR
+Jun,500.00,120,5,6,
+
