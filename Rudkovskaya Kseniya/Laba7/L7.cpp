@@ -475,6 +475,13 @@ void ShowVacationNotice(HumanResourcesDepartment* hrd) {
 	}
 }
 
+void FreeHumanResourseDepartment(HumanResourcesDepartment* hrd) {
+	free(hrd->persons);
+	hrd->persons = NULL;
+	hrd->totalpersons = 0;
+	free(hrd);
+}
+
 void Menu(HumanResourcesDepartment* hrd) {
 	while (true) {
 		system("cls");
@@ -558,6 +565,7 @@ void Menu(HumanResourcesDepartment* hrd) {
 				printf("ERROR! Could not save HRD database to %s!", hrdfilename);
 				exit(EXIT_FAILURE);
 			}
+			FreeHumanResourseDepartment(hrd);
 			exit(EXIT_SUCCESS);
 		}
 		default: { printf("Invalid input.");
